@@ -1,10 +1,137 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <p>My github.io site is officially working.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pareshkumar Sharma | Portfolio</title>
+    <meta name="description" content="Modern portfolio website for Pareshkumar Sharma featuring projects, about, and contact information." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">Paresh<span>Sharma</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <nav class="site-nav">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Building thoughtful digital experiences</p>
+            <h1>Hi, I’m Pareshkumar — a developer creating modern, user-first web experiences.</h1>
+            <p>
+              I turn ideas into polished websites and interfaces with a balance of visual clarity, performance, and personality.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="projects.html">View Projects</a>
+              <a class="btn btn-secondary" href="contact.html">Let’s Talk</a>
+            </div>
+            <ul class="hero-highlights">
+              <li>Responsive, high-performing websites</li>
+              <li>Polished UI systems and content structure</li>
+              <li>Focus on storytelling and conversion</li>
+            </ul>
+          </div>
+          <div class="card glass">
+            <div class="panel-badge">Available for freelance work</div>
+            <h3>What I bring</h3>
+            <ul class="feature-list">
+              <li>Clean, modern frontend development</li>
+              <li>Thoughtful user experience design</li>
+              <li>Fast turnarounds and strong collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About the work</p>
+            <h2>Crafted with care for clarity and impact</h2>
+          </div>
+          <div class="split-grid">
+            <div class="card">
+              <h3>My approach</h3>
+              <p>
+                Every project starts with the user journey and a clear story. I design interfaces that feel intuitive while staying visually strong and grounded in purpose.
+              </p>
+            </div>
+            <div class="stats-grid">
+              <article class="card stat-card">
+                <h3>3+</h3>
+                <p>Years focused on modern web experiences</p>
+              </article>
+              <article class="card stat-card">
+                <h3>100%</h3>
+                <p>Attention to detail from layout to launch</p>
+              </article>
+              <article class="card stat-card">
+                <h3>24/7</h3>
+                <p>Driven by curiosity and meaningful feedback</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Featured projects</p>
+            <h2>Recent builds with a refined feel</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card project-card">
+              <div class="project-topline">UI Design • Frontend</div>
+              <h3>Studio North</h3>
+              <p>A premium landing experience that combines strong visuals with calm, coherent structure.</p>
+            </article>
+            <article class="card project-card">
+              <div class="project-topline">Product • Web App</div>
+              <h3>Pulse Analytics</h3>
+              <p>An analytics dashboard designed to make performance data digestible and meaningful.</p>
+            </article>
+            <article class="card project-card">
+              <div class="project-topline">Brand • Launch Site</div>
+              <h3>Nova Commerce</h3>
+              <p>A conversion-focused storefront experience that balances storytelling and sales.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-card">
+          <div>
+            <p class="eyebrow">Let’s create</p>
+            <h2>Ready to build something memorable?</h2>
+          </div>
+          <a class="btn btn-primary" href="contact.html">Start a conversation</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Pareshkumar Sharma</p>
+        <div class="footer-links">
+          <a href="https://github.com/paresh-developer" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/pareshkumar-sharma" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

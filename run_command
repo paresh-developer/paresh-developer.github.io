@@ -1,0 +1,2 @@
+# cd "w:\Documents\Me & My Family\Pareshkumar Sharma\Resume\github.io"
+python -m http.server 8000
